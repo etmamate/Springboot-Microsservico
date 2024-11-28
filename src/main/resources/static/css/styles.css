@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(23, 28, 63);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Lista de produtos */
+#lista-produtos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-produtos li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-produtos li span {
+    flex: 1;
+}
+
+/* Botões */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:nth-child(1) {
+    background-color: #007BFF;
+    color: white;
+}
+
+button:nth-child(2) {
+    background-color: #FF4D4D;
+    color: white;
+}
+
+/* Formulário */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 9px;
+    padding-left: 0px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
